@@ -1,16 +1,68 @@
-# React + Vite
+React Counter App (Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple counter application built with React and Vite for practice and revision. The app demonstrates state management, event handling, and basic React concepts.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Increment and decrement counter value
 
-## React Compiler
+Reset counter to zero
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Alerts if counter goes below 0 or above 20
 
-## Expanding the ESLint configuration
+Simple and responsive UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Technologies Used
+
+React
+
+Vite
+
+JavaScript
+
+CSS
+
+How to Run
+
+Clone the repository:
+
+git clone <your-repo-url>
+
+
+Navigate to the project folder:
+
+cd <your-project-folder>
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+
+Open the link shown in the terminal (usually http://localhost:5173
+).
+
+Project Structure
+src/
+ ├─ components/Counter.jsx  # Counter component
+ ├─ App.jsx                 # Main app component
+ └─ main.jsx                # Entry point (Vite)
+
+Learning Outcome
+
+Practiced useState hook
+
+Implemented conditional alerts
+
+Reinforced React + Vite setup and component-based structure
+Sharing some screenshots
+
+<img width="750" height="369" alt="image" src="https://github.com/user-attachments/assets/62157c0a-7bd6-4009-a73b-46fcf3a8d653" />
+
+<img width="566" height="313" alt="image" src="https://github.com/user-attachments/assets/fcabe812-b34e-402f-a9c8-840edfbcaa13" />
+
